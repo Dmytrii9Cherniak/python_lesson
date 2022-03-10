@@ -12,29 +12,29 @@
 
 # 1) Найти min число в листе
 
-# list_of_numbers = [22, 3,5,2,8,2,-23, 8,23,5]
-#
-# smallest_number = min(list)
-# print("The smallest number is", smallest_number)
+list_of_numbers = [22, 3,5,2,8,2,-23, 8,23,5]
+
+smallest_number = min(list)
+print("The smallest number is", smallest_number)
 
 # або
 
-# list.sort(reverse=False)
-# print("The smallest number is", list[0])
+list.sort(reverse=False)
+print("The smallest number is", list[0])
 
 # або
 
-# smallest = list[0] if list else None
+smallest = list[0] if list else None
 
-# for i in list:
-#     if i < smallest:
-#         smallest = i
-# print("The smallest number is", smallest_number)
+for i in list:
+    if i < smallest:
+        smallest = i
+print("The smallest number is", smallest_number)
 
 # 2) удалить все дубликаты в листе
 
-# list_of_numbers = list(set(list_of_numbers))
-# print(list_of_numbers)
+list_of_numbers = list(set(list_of_numbers))
+print(list_of_numbers)
 
 # 3) заменить каждое четвертое значение на "Х"
 
